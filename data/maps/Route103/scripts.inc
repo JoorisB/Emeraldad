@@ -1,4 +1,5 @@
 .set LOCALID_RIVAL, 2
+.set LOCALID_DAD, 21
 
 Route103_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route103_OnTransition
