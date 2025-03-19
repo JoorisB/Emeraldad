@@ -146,6 +146,20 @@
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 23,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_POKEMON_AREA",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 27,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_POKEMON_AREA",
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [
