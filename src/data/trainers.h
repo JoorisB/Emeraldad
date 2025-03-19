@@ -42178,3 +42178,228 @@ F_TRAINER_FEMALE |
             },
         },
     },
+#line 16877
+    [DIFFICULTY_NORMAL][TRAINER_DAD_ROUTE103_TREECKO] =
+    {
+#line 16878
+        .trainerName = _("DAD"),
+#line 16879
+        .trainerClass = TRAINER_CLASS_GENTLEMAN,
+#line 16880
+        .trainerPic = TRAINER_PIC_LEADER_NORMAN,
+        .encounterMusic_gender =
+#line 16882
+            TRAINER_ENCOUNTER_MUSIC_INTENSE,
+#line 16883
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
+        .partySize = 2,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 16885
+            .species = SPECIES_SLAKOTH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16885
+            .heldItem = ITEM_ORAN_BERRY,
+#line 16889
+            .ev = TRAINER_PARTY_EVS(76, 36, 0, 0, 0, 0),
+#line 16891
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 16886
+            .ability = ABILITY_TRUANT,
+#line 16887
+            .lvl = 10,
+#line 16890
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 16888
+            .teraType = TYPE_NORMAL,
+            .moves = {
+#line 16891
+                MOVE_SCRATCH,
+                MOVE_YAWN,
+                MOVE_FLAIL,
+                MOVE_SLACK_OFF,
+            },
+            },
+            {
+#line 16896
+            .species = SPECIES_CHARMANDER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16896
+            .heldItem = ITEM_CHARCOAL,
+#line 16901
+            .ev = TRAINER_PARTY_EVS(32, 0, 0, 0, 64, 0),
+#line 16903
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 16897
+            .ability = ABILITY_BLAZE,
+#line 16898
+            .lvl = 12,
+#line 16902
+            .nature = NATURE_MODEST,
+#line 16899
+            .isShiny = TRUE,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 16900
+            .teraType = TYPE_FIRE,
+            .moves = {
+#line 16903
+                MOVE_SCRATCH,
+                MOVE_EMBER,
+                MOVE_DRAGON_PULSE,
+                MOVE_SUNNY_DAY,
+            },
+            },
+        },
+    },
+#line 16908
+    [DIFFICULTY_NORMAL][TRAINER_DAD_ROUTE103_MUDKIP] =
+    {
+#line 16909
+        .trainerName = _("DAD"),
+#line 16910
+        .trainerClass = TRAINER_CLASS_GENTLEMAN,
+#line 16911
+        .trainerPic = TRAINER_PIC_LEADER_NORMAN,
+        .encounterMusic_gender =
+#line 16913
+            TRAINER_ENCOUNTER_MUSIC_INTENSE,
+#line 16914
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
+        .partySize = 2,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 16916
+            .species = SPECIES_SLAKOTH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16916
+            .heldItem = ITEM_ORAN_BERRY,
+#line 16920
+            .ev = TRAINER_PARTY_EVS(76, 36, 0, 0, 0, 0),
+#line 16922
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 16917
+            .ability = ABILITY_TRUANT,
+#line 16918
+            .lvl = 10,
+#line 16921
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 16919
+            .teraType = TYPE_NORMAL,
+            .moves = {
+#line 16922
+                MOVE_SCRATCH,
+                MOVE_YAWN,
+                MOVE_FLAIL,
+                MOVE_SLACK_OFF,
+            },
+            },
+            {
+#line 16927
+            .species = SPECIES_BULBASAUR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16927
+            .heldItem = ITEM_MIRACLE_SEED,
+#line 16932
+            .ev = TRAINER_PARTY_EVS(16, 0, 0, 0, 56, 0),
+#line 16934
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 16928
+            .ability = ABILITY_OVERGROW,
+#line 16929
+            .lvl = 12,
+#line 16933
+            .nature = NATURE_MODEST,
+#line 16930
+            .isShiny = TRUE,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 16931
+            .teraType = TYPE_GRASS,
+            .moves = {
+#line 16934
+                MOVE_TACKLE,
+                MOVE_ABSORB,
+                MOVE_LEECH_SEED,
+                MOVE_BULLET_SEED,
+            },
+            },
+        },
+    },
+#line 16939
+    [DIFFICULTY_NORMAL][TRAINER_DAD_ROUTE103_TORCHIC] =
+    {
+#line 16940
+        .trainerName = _("DAD"),
+#line 16941
+        .trainerClass = TRAINER_CLASS_GENTLEMAN,
+#line 16942
+        .trainerPic = TRAINER_PIC_LEADER_NORMAN,
+        .encounterMusic_gender =
+#line 16944
+            TRAINER_ENCOUNTER_MUSIC_INTENSE,
+#line 16945
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
+        .partySize = 2,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 16947
+            .species = SPECIES_SLAKOTH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16947
+            .heldItem = ITEM_ORAN_BERRY,
+#line 16951
+            .ev = TRAINER_PARTY_EVS(76, 36, 0, 0, 0, 0),
+#line 16953
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 16948
+            .ability = ABILITY_TRUANT,
+#line 16949
+            .lvl = 10,
+#line 16952
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 16950
+            .teraType = TYPE_NORMAL,
+            .moves = {
+#line 16953
+                MOVE_SCRATCH,
+                MOVE_YAWN,
+                MOVE_FLAIL,
+                MOVE_SLACK_OFF,
+            },
+            },
+            {
+#line 16958
+            .species = SPECIES_SQUIRTLE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16958
+            .heldItem = ITEM_MYSTIC_WATER,
+#line 16963
+            .ev = TRAINER_PARTY_EVS(24, 60, 0, 0, 0, 0),
+#line 16965
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 16959
+            .ability = ABILITY_TORRENT,
+#line 16960
+            .lvl = 12,
+#line 16964
+            .nature = NATURE_ADAMANT,
+#line 16961
+            .isShiny = TRUE,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 16962
+            .teraType = TYPE_WATER,
+            .moves = {
+#line 16965
+                MOVE_TACKLE,
+                MOVE_FAKE_OUT,
+                MOVE_AQUA_JET,
+                MOVE_WATER_GUN,
+            },
+            },
+        },
+    },

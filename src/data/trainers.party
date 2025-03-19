@@ -16873,3 +16873,97 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_DAD_ROUTE103_TREECKO ===
+Name: DAD
+Class: Gentleman
+Pic: Leader Norman
+Gender: Male
+Music: Intense
+AI: Check Bad Move / Try To Faint
+
+Slakoth @ Oran Berry  
+Ability: Truant  
+Level: 10  
+Tera Type: Normal  
+EVs: 76 HP / 36 Atk  
+Adamant Nature  
+- Scratch  
+- Yawn  
+- Flail  
+- Slack Off  
+
+Charmander @ Charcoal  
+Ability: Blaze  
+Level: 12  
+Shiny: Yes  
+Tera Type: Fire  
+EVs: 32 HP / 64 SpA  
+Modest Nature  
+- Scratch  
+- Ember  
+- Dragon Pulse  
+- Sunny Day  
+
+=== TRAINER_DAD_ROUTE103_MUDKIP ===
+Name: DAD
+Class: Gentleman
+Pic: Leader Norman
+Gender: Male
+Music: Intense
+AI: Check Bad Move / Try To Faint
+
+Slakoth @ Oran Berry  
+Ability: Truant  
+Level: 10  
+Tera Type: Normal  
+EVs: 76 HP / 36 Atk  
+Adamant Nature  
+- Scratch  
+- Yawn  
+- Flail  
+- Slack Off  
+
+Bulbasaur @ Miracle Seed  
+Ability: Overgrow  
+Level: 12  
+Shiny: Yes  
+Tera Type: Grass  
+EVs: 16 HP / 56 SpA  
+Modest Nature  
+- Tackle  
+- Absorb  
+- Leech Seed  
+- Bullet Seed
+
+=== TRAINER_DAD_ROUTE103_TORCHIC ===
+Name: DAD
+Class: Gentleman
+Pic: Leader Norman
+Gender: Male
+Music: Intense
+AI: Check Bad Move / Try To Faint
+
+Slakoth @ Oran Berry  
+Ability: Truant  
+Level: 10  
+Tera Type: Normal  
+EVs: 76 HP / 36 Atk  
+Adamant Nature  
+- Scratch  
+- Yawn  
+- Flail  
+- Slack Off 
+
+Squirtle @ Mystic Water  
+Ability: Torrent  
+Level: 12  
+Shiny: Yes  
+Tera Type: Water  
+EVs: 24 HP / 60 Atk  
+Adamant Nature  
+- Tackle  
+- Fake Out  
+- Aqua Jet  
+- Water Gun
+
