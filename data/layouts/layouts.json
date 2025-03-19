@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/LittlerootPokemonArea/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootPokemonArea/map.bin"
+    },
+    {
+      "id": "LAYOUT_LITTLEROOT_TOWN_TRADING_CENTER",
+      "name": "LittlerootTown_TradingCenter_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleFrontier",
+      "border_filepath": "data/layouts/LittlerootTown_TradingCenter/border.bin",
+      "blockdata_filepath": "data/layouts/LittlerootTown_TradingCenter/map.bin"
     }
   ]
 }

@@ -1156,3 +1156,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/dexnav.inc"
 
 	.include "data/maps/LittlerootPokemonArea/scripts.inc"
+
+	.include "data/maps/LittlerootTown_TradingCenter/scripts.inc"

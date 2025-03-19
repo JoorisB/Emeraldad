@@ -1047,6 +1047,102 @@ static const struct InGameTrade sIngameTrades[] =
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_SKITTY
+    },
+    [INGAME_TRADE_POLIWHIRL] =
+    {
+        .nickname = _("Politoed"),
+        .species = SPECIES_POLIWHIRL,
+        .ivs = {24, 26, 31, 29, 20, 28},
+        .abilityNum = 0,
+        .otId = 42069,
+        .conditions = {5, 5, 5, 30, 5},
+        .personality = 0x00,
+        .heldItem = ITEM_KINGS_ROCK,
+        .mailNum = -1,
+        .otName = _("Joorror"),
+        .otGender = FEMALE,
+        .sheen = 10,
+        .requestedSpecies = SPECIES_POLIWHIRL
+    },
+    [INGAME_TRADE_KADABRA] =
+    {
+        .nickname = _("Alakazam"),
+        .species = SPECIES_KADABRA,
+        .ivs = {21, 27, 30, 31, 22, 29},
+        .abilityNum = 0,
+        .otId = 42069,
+        .conditions = {5, 5, 5, 30, 5},
+        .personality = 0x00,
+        .heldItem = ITEM_NONE,
+        .mailNum = -1,
+        .otName = _("Joorror"),
+        .otGender = FEMALE,
+        .sheen = 10,
+        .requestedSpecies = SPECIES_KADABRA
+    },
+    [INGAME_TRADE_MACHOKE] =
+    {
+        .nickname = _("Machamp"),
+        .species = SPECIES_MACHOKE,
+        .ivs = {29, 31, 30, 21, 22, 24},
+        .abilityNum = 0,
+        .otId = 42069,
+        .conditions = {5, 5, 5, 30, 5},
+        .personality = 0x01,
+        .heldItem = ITEM_NONE,
+        .mailNum = -1,
+        .otName = _("Joorror"),
+        .otGender = FEMALE,
+        .sheen = 10,
+        .requestedSpecies = SPECIES_MACHOKE
+    },
+    [INGAME_TRADE_GRAVELER] =
+    {
+        .nickname = _("Golem"),
+        .species = SPECIES_GRAVELER,
+        .ivs = {29, 27, 21, 31, 24, 29},
+        .abilityNum = 0,
+        .otId = 42069,
+        .conditions = {5, 5, 5, 30, 5},
+        .personality = 0x01,
+        .heldItem = ITEM_NONE,
+        .mailNum = -1,
+        .otName = _("Joorror"),
+        .otGender = FEMALE,
+        .sheen = 10,
+        .requestedSpecies = SPECIES_GRAVELER
+    },
+    [INGAME_TRADE_SLOWPOKE] =
+    {
+        .nickname = _("Slowking"),
+        .species = SPECIES_SLOWPOKE,
+        .ivs = {31, 21, 30, 27, 31, 20},
+        .abilityNum = 0,
+        .otId = 42069,
+        .conditions = {5, 5, 5, 30, 5},
+        .personality = 0x01,
+        .heldItem = ITEM_KINGS_ROCK,
+        .mailNum = -1,
+        .otName = _("Joorror"),
+        .otGender = FEMALE,
+        .sheen = 10,
+        .requestedSpecies = SPECIES_SLOWPOKE
+    },
+    [INGAME_TRADE_HAUNTER] =
+    {
+        .nickname = _("Gengar"),
+        .species = SPECIES_HAUNTER,
+        .ivs = {21, 31, 25, 31, 20, 30},
+        .abilityNum = 0,
+        .otId = 42069,
+        .conditions = {5, 5, 5, 30, 5},
+        .personality = 0x01,
+        .heldItem = ITEM_NONE,
+        .mailNum = -1,
+        .otName = _("Joorror"),
+        .otGender = FEMALE,
+        .sheen = 10,
+        .requestedSpecies = SPECIES_HAUNTER
     }
 };
 
