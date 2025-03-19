@@ -86,18 +86,18 @@ LittlerootTown_TradingCenter_EventScript_NotRequestedMon::
 	release
 	end
  
-LittlerootTown_TradingCenter_Text_WillingToTradeIt::
+LittlerootTown_TradingCenter_Text_WillingToTradeIt:
 	.string "Check out this {STR_VAR_2}!\n"
 	.string "Do you want to help me evolve it!\p"
 	.string "I'll tell you what. Let's team up and\n"
 	.string " evolve our {STR_VAR_1} together.$"
  
-LittlerootTown_TradingCenter_DeclineTrade_Text::
+LittlerootTown_TradingCenter_DeclineTrade_Text:
 	.string "Thats too bad, maybe next time.$"
  
-LittlerootTown_TradingCenter_WrongMon_Text::
+LittlerootTown_TradingCenter_WrongMon_Text:
 	.string "I'm sorry but that is not\n"
 	.string "a {STR_VAR_1}, I cannot trade with you.$"
  
-LittlerootTown_TradingCenter_TradeThanks::
+LittlerootTown_TradingCenter_TradeThanks:
 	.string "Thanks for helping me out!$"

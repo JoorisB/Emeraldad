@@ -20,7 +20,7 @@ LittlerootPokemonArea_HasPokemon::
 	release
 	end
 
-LittlerootPokemonArea_Text_HasNoPokemon::
+LittlerootPokemonArea_Text_HasNoPokemon:
 	.string "Sorry but I can't let you through\n"
 	.string "without any POKéMON. The Creatures\p"
 	.string "that live here might seem cute...\n"

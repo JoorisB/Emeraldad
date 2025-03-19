@@ -1008,7 +1008,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
 
-LittlerootTown_Text_OurNewHomeLetsGoInside::
+LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "MOM: {PLAYER} come inside, the\n"
 	.string "Vigoroth Moving Helper Co. will take\l"
 	.string "care of the rest. How greatful of your\l"
