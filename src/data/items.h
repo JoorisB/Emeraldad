@@ -138,6 +138,31 @@ static const u8 sGenericMulchDesc[]   = _("A fertilizer that\n"
                                           "is unsuitable for\n"
                                           "local soil.");
 
+// HM Items
+static const u8 sSurfboardDesc[]      = _("This flat board\n"
+                                          "is shaped for\n"
+                                          "riding waves.");
+
+static const u8 sAxeDesc[]            = _("A small cutting\n"
+                                          "instrument best for\n"
+                                          "clearing bushes.");
+
+static const u8 sHammerDesc[]         = _("A small rubber\n"
+                                          "mallet. It may can\n"
+                                          "smash rocks.");
+
+static const u8 sDivingSuitDesc[]     = _("Portable suit made\n"
+                                          "for diving from\n"
+                                          "the SURFBOARD.");
+
+static const u8 sLanternDesc[]        = _("A bright lantern\n"
+                                          "that can light dark\n"
+                                          "caves.");
+
+static const u8 sPowerGloveDesc[]     = _("A special glove\n"
+                                          "that makes moving\n"
+                                          "heavy rocks easy.");
+
 const struct Item gItemsInfo[] =
 {
     [ITEM_NONE] =
@@ -14093,4 +14118,83 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+
+    // HM Items
+    [ITEM_SURFBOARD] =
+    {
+        .name = _("SURFBOARD"),
+        .price = 0,
+		.importance = 1,
+        .description = sSurfboardDesc,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Surfboard,
+        .iconPic = gItemIcon_QuestionMark,
+        .iconPalette = gItemIconPalette_QuestionMark,
+    },
+
+	[ITEM_AXE] =
+    {
+        .name = _("AXE"),
+        .price = 0,
+		.importance = 1,
+        .description = sAxeDesc,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Axe,
+        .iconPic = gItemIcon_QuestionMark,
+        .iconPalette = gItemIconPalette_QuestionMark,
+    },
+
+	[ITEM_HAMMER] =
+    {
+        .name = _("HAMMER"),
+        .price = 0,
+		.importance = 1,
+        .description = sHammerDesc,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Hammer,
+        .iconPic = gItemIcon_QuestionMark,
+        .iconPalette = gItemIconPalette_QuestionMark,
+    },
+
+	[ITEM_DIVING_SUIT] =
+    {
+        .name = _("DIVING SUIT"),
+        .price = 0,
+		.importance = 1,
+        .description = sDivingSuitDesc,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DivingSuit,
+        .iconPic = gItemIcon_QuestionMark,
+        .iconPalette = gItemIconPalette_QuestionMark,
+    },
+
+	[ITEM_LANTERN] =
+    {
+        .name = _("LANTERN"),
+        .price = 0,
+		.importance = 1,
+        .description = sLanternDesc,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Lantern,
+        .iconPic = gItemIcon_QuestionMark,
+        .iconPalette = gItemIconPalette_QuestionMark,
+    },
+
+	[ITEM_POWER_GLOVE] =
+    {
+        .name = _("POWER GLOVE"),
+        .price = 0,
+		.importance = 1,
+        .description = sPowerGloveDesc,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_PowerGlove,
+        .iconPic = gItemIcon_QuestionMark,
+        .iconPalette = gItemIconPalette_QuestionMark,
+    },    
 };
