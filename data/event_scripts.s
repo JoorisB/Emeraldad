@@ -1076,6 +1076,26 @@ Common_EventScript_DirectCornerAttendant::
 	call CableClub_EventScript_DirectCornerAttendant
 	end
 
+Common_EventScript_CandyShop::
+	lock
+	message gText_CandyShop_Enter
+	waitmessage
+	pokemart Common_CandyShop
+	msgbox gText_CandyShop_Exit
+	release
+	return
+
+Common_CandyShop:
+	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_NONE
+
+gText_CandyShop_Enter:
+	.string "...psst. Wanna Buy Some Candy?$"
+
+gText_CandyShop_Exit:
+	.string "Tell your Friends.$"	
+
 Common_EventScript_RemoveStaticPokemon::
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
