@@ -2415,6 +2415,9 @@ extern const u8 gText_PM[];
 extern const u8 gText_PlayerScurriedToCenter[];
 extern const u8 gText_PlayerScurriedBackHome[];
 
+//PC in Start Menu
+extern const u8 gText_MenuPC[];
+
 extern const u8 gText_Relearn[]; // move relearner from summary screen
 extern const u8 gText_Rename[]; // change nickname from summary screen
 
