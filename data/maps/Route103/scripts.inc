@@ -454,29 +454,29 @@ Route103_Move_dadExit:
 
 Route103_Text_dadIntro::
 	.string "Hello there, my CHILD. I knew I would be\n"
-	.string "able to catch you on your way to\l"
+	.string "able to catch you on your way to\p"
 	.string "PETALBURG CITY.\p"
 	.string "I got wind that you recieved a POKéMON\n"
 	.string "from Prof. BIRCH...\p"
 	.string "Finally that dream has become a reality\n"
 	.string "and you can become a Trainer like me.\p"
 	.string "Maybe if you work hard enough you could\n"
-	.string "one day even live up to my glorious\l"
+	.string "one day even live up to my glorious\p"
 	.string "family name.\p"
 	.string "Seeing as I stepped down from being the\n"
-	.string "PETALBURG CITY GYM LEADER to focus on\l"
+	.string "PETALBURG CITY GYM LEADER to focus on\p"
 	.string "more pressing matters, you could take\n"
 	.string "back the GYM for our family...\p"
 	.string "But enough chatter. Make your DAD\n"
-	.string "proud and give me a good fight. Right\n"
-	.string "here, right now.$"
+	.string "proud and give me a good fight.\p"
+	.string "Right here, right now.$"
 
 Route103_Text_dadDefeated::
 	.string "I KNEW IT! You battle just like your old\n"
 	.string "man when I was your age...$"
 
 Route103_Text_dadExit::
-	.string "We will make you a good trainer one day.\p"
-	.string "For now, go on. Make your way to the\n"
-	.string "RUSTBORO GYM. I will be keeping an eye\l"
+	.string "We will make you a good trainer one day.\n"
+	.string "For now, go on. Make your way to the\p"
+	.string "RUSTBORO GYM. I will be keeping an eye\n"
 	.string "on you for sure.$"

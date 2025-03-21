@@ -4,7 +4,7 @@ LittlerootPokemonArea_MapScripts::
 LittlerootPokemonArea_PlayerWithPokemon::
 	lock
 	faceplayer
-	goto_if_set FLAG_SYS_POKEDEX_GET, LittlerootPokemonArea_HasPokemon
+	goto_if_set FLAG_SYS_POKEMON_GET, LittlerootPokemonArea_HasPokemon
 	msgbox LittlerootPokemonArea_Text_HasNoPokemon, MSGBOX_DEFAULT
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootPokemonArea_Movement_PlayerStepBack
 	waitmovement 0
