@@ -207,7 +207,7 @@ Route101_Movement_Unused2:
 	step_end
 
 Route101_EventScript_Youngster::
-	msgbox Route101_Text_TakeTiredPokemonToPokeCenter, MSGBOX_NPC
+	msgbox Route101_Text_TradeShoes, MSGBOX_NPC
 	end
 
 Route101_EventScript_Boy::
@@ -267,7 +267,10 @@ Route101_Text_PleaseHelp:
 	.string "Hello! You over there!\n"
 	.string "Please! Help!\p"
 	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "There are POKé BALLs in that BAG!\p"
+	.string "They are the Lottery Winners, but I\n"
+	.string "won't tell if you save my life.\p"
+	.string "QUICK, WHAT ARE YOU WAITING FOR???$"
 
 Route101_Text_DontLeaveMe:
 	.string "Wh-Where are you going?!\n"
@@ -277,25 +280,36 @@ Route101_Text_YouSavedMe:
 	.string "PROF. BIRCH: Whew…\p"
 	.string "I was in the tall grass studying wild\n"
 	.string "POKéMON when I was jumped.\p"
+	.string "By a POKéMON no less, which is not\n"
+	.string "native to this Route.\p"
 	.string "You saved me.\n"
 	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+	.string "Oh? What is that?\p"
+	.string "Your Name is {PLAYER}{KUN}?\p"
+	.string "That means you won the Lottery...\n"
+	.string "Well forget what I said earlier...\p"
+	.string "This is not the place to officially\n"
+	.string "hand over your prize POKéMON though.\p"
+	.string "Come by my POKéMON LAB later, okay?$"
 
-Route101_Text_TakeTiredPokemonToPokeCenter:
-	.string "If POKéMON get tired, take them to\n"
-	.string "a POKéMON CENTER.\p"
-	.string "There's a POKéMON CENTER in OLDALE\n"
-	.string "TOWN right close by.$"
+Route101_Text_TradeShoes:
+	.string "My shoes have holes and now my\n"
+	.string "feet are wet. Wanna trade shoes?\p"
+	.string " ... No? Huh.\n"
+	.string "Well your loss, wet feet rule.$"
 
-Route101_Text_WildPokemonInTallGrass:
-	.string "Wild POKéMON will jump out at you in\n"
-	.string "tall grass.\p"
-	.string "If you want to catch POKéMON, you have\n"
-	.string "to go into the tall grass and search.$"
+Route101_Text_WildPokemonInTallGrass::
+	.string "Hey there, Trainer! The tall grass ahead\n"
+	.string "is full of wild Pokémon. Make sure you’re\p"
+	.string "prepared with Poké Balls and potions!\n"
+	.string "Oh, and keep an eye out for rare\p"
+	.string "POKéMON - they love hiding in the shadows.\n"
+	.string "Good luck, and may your journey be\p"
+	.string "LEGENDARY$"
+
 
 Route101_Text_RouteSign:
-	.string "ROUTE 101\n"
-	.string "{UP_ARROW} OLDALE TOWN$"
+	.string "ROUTE 101\p"
+	.string "Encounter Levels:  3 - 8\n"
+	.string "Reccomended Level: 7$"
+
