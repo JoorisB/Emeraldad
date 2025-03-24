@@ -335,8 +335,8 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 41,
-      "y": 11,
+      "x": 33,
+      "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route103_EventScript_RouteSign"

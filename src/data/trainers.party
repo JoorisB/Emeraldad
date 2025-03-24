@@ -9508,11 +9508,28 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint
 
-Treecko
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Goomy @ Miracle Seed  
+Ability: Hydration  
+Level: 8  
+EVs: 16 HP / 36 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Absorb  
+- Water Gun  
+- Dragon Breath  
+- Life Dew  
+
+Treecko @ Oran Berry  
+Ability: Unburden  
+Level: 10  
+EVs: 36 HP / 76 SpA  
+Modest Nature  
+- Mega Drain  
+- Detect  
+- Leech Seed  
+- Quick Attack
 
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
 Name: BRENDAN
@@ -9563,11 +9580,27 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Check Bad Move / Try To Faint
 
-Torchic
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Frigibax @ Never-Melt Ice  
+Ability: Thermal Exchange  
+Level: 8    
+EVs: 8 HP / 76 Atk  
+Adamant Nature  
+- Icicle Spear  
+- Dragon Tail  
+- Icy Wind  
+- Focus Energy  
+
+Torchic @ Oran Berry  
+Ability: Speed Boost  
+Level: 10  
+EVs: 36 HP / 76 Atk  
+Adamant Nature  
+- Flame Charge  
+- Scratch  
+- Peck  
+- Swords Dance
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
 Name: BRENDAN
@@ -9618,11 +9651,27 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint
 
-Mudkip
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Larvitar @ Hard Stone  
+Ability: Guts  
+Level: 8  
+EVs: 28 HP / 64 Atk  
+Adamant Nature  
+- Rock Throw  
+- Bite  
+- Dragon Dance  
+- Substitute  
+
+Mudkip @ Oran Berry  
+Ability: Damp  
+Level: 10  
+EVs: 36 HP / 76 Atk  
+Adamant Nature  
+- Water Gun  
+- Rock Throw  
+- Rock Smash  
+- Yawn  
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
 Name: BRENDAN
@@ -9673,11 +9722,28 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint
 
-Treecko
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Goomy @ Miracle Seed  
+Ability: Hydration  
+Level: 8  
+EVs: 16 HP / 36 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Absorb  
+- Water Gun  
+- Dragon Breath  
+- Life Dew  
+
+Treecko @ Oran Berry  
+Ability: Unburden  
+Level: 10  
+EVs: 36 HP / 76 SpA  
+Modest Nature  
+- Mega Drain  
+- Detect  
+- Leech Seed  
+- Quick Attack
 
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
 Name: MAY
@@ -9728,11 +9794,27 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint
 
-Torchic
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Frigibax @ Never-Melt Ice  
+Ability: Thermal Exchange  
+Level: 8    
+EVs: 8 HP / 76 Atk  
+Adamant Nature  
+- Icicle Spear  
+- Dragon Tail  
+- Icy Wind  
+- Focus Energy  
+
+Torchic @ Oran Berry  
+Ability: Speed Boost  
+Level: 10  
+EVs: 36 HP / 76 Atk  
+Adamant Nature  
+- Flame Charge  
+- Scratch  
+- Peck  
+- Swords Dance
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
 Name: MAY
@@ -9783,11 +9865,27 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint
 
-Mudkip
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Larvitar @ Hard Stone  
+Ability: Guts  
+Level: 8  
+EVs: 28 HP / 64 Atk  
+Adamant Nature  
+- Rock Throw  
+- Bite  
+- Dragon Dance  
+- Substitute  
+
+Mudkip @ Oran Berry  
+Ability: Damp  
+Level: 10  
+EVs: 36 HP / 76 Atk  
+Adamant Nature  
+- Water Gun  
+- Rock Throw  
+- Rock Smash  
+- Yawn  
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
 Name: MAY

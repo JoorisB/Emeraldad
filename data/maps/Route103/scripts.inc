@@ -64,32 +64,32 @@ Route103_EventScript_RivalBrendan::
 	end
 
 Route103_EventScript_StartMayBattleTreecko::
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_TREECKO, Route103_Text_MayDefeated
+	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_TREECKO, Route103_Text_RivalDefeated
 	goto Route103_EventScript_AfterMayBattle
 	end
 
 Route103_EventScript_StartMayBattleTorchic::
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_TORCHIC, Route103_Text_MayDefeated
+	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_TORCHIC, Route103_Text_RivalDefeated
 	goto Route103_EventScript_AfterMayBattle
 	end
 
 Route103_EventScript_StartMayBattleMudkip::
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_MUDKIP, Route103_Text_MayDefeated
+	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_MUDKIP, Route103_Text_RivalDefeated
 	goto Route103_EventScript_AfterMayBattle
 	end
 
 Route103_EventScript_StartBrendanBattleTreecko::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_TREECKO, Route103_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_TREECKO, Route103_Text_RivalDefeated
 	goto Route103_EventScript_AfterBrendanBattle
 	end
 
 Route103_EventScript_StartBrendanBattleTorchic::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_TORCHIC, Route103_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_TORCHIC, Route103_Text_RivalDefeated
 	goto Route103_EventScript_AfterBrendanBattle
 	end
 
 Route103_EventScript_StartBrendanBattleMudkip::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_MUDKIP, Route103_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_MUDKIP, Route103_Text_RivalDefeated
 	goto Route103_EventScript_AfterBrendanBattle
 	end
 
@@ -193,7 +193,7 @@ Route103_Movement_WatchRivalExitFacingEastOrWest:
 	step_end
 
 Route103_EventScript_Boy::
-	msgbox Route103_Text_ShouldHaveBroughtPotion, MSGBOX_NPC
+	msgbox Route103_Text_ShouldHaveBroughtUmbrella, MSGBOX_NPC
 	end
 
 Route103_EventScript_Man::
@@ -295,57 +295,55 @@ Route103_Text_MayRoute103Pokemon:
 	.string "MAY: Let's see… The POKéMON found\n"
 	.string "on ROUTE 103 include…$"
 
-Route103_Text_MayLetsBattle:
-	.string "Oh, hi, {PLAYER}{KUN}!\p"
-	.string "…Oh, I see, my dad gave you\n"
-	.string "a POKéMON as a gift.\p"
-	.string "Since we're here, let's have a quick\n"
-	.string "battle!\p"
-	.string "I'll give you a taste of what being\n"
-	.string "a TRAINER is like.$"
-
-Route103_Text_MayDefeated:
-	.string "Wow! That's great!\n"
-	.string "{PLAYER}{KUN}, you're pretty good!$"
+Route103_Text_MayLetsBattle::
+	.string "Oh, hey, {PLAYER}{KUN}!\p"
+	.string "I heard about you found the correct\n"
+	.string "POKéBALL at last... No more stealing!\p"
+	.string "What do you think about settling our\n"
+	.string "dispute from earlier Battle-Style?\p"
+	.string "Let's go, show me what you got.$"
 
 Route103_Text_MayTimeToHeadBack:
 	.string "MAY: I think I know why my dad has\n"
 	.string "an eye out for you now.\p"
 	.string "I mean, you just got that POKéMON,\n"
-	.string "but it already likes you.\p"
+	.string "but you seem so comfortable together.\p"
 	.string "You might be able to befriend any\n"
 	.string "kind of POKéMON easily.\p"
-	.string "Well, it's time to head back to\n"
-	.string "the LAB.$"
+	.string "I am sure Dad would love to test his\n"
+	.string "Battle Synergies Theorem on you.\p"
+	.string "Let's head back to the LAB.$"
 
 Route103_Text_BrendanRoute103Pokemon:
 	.string "BRENDAN: Okay, so it's this one and\n"
 	.string "that one that live on ROUTE 103…$"
 
 Route103_Text_BrendanLetsBattle:
-	.string "Hey, it's {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
-	.string "Since we're here, how about a little\n"
-	.string "battle?\p"
-	.string "I'll teach you what being a TRAINER's\n"
-	.string "about!$"
+	.string "Oh, hey, {PLAYER}{KUN}!\p"
+	.string "I heard about you found the correct\n"
+	.string "POKéBALL at last... No more stealing!\p"
+	.string "What do you think about settling our\n"
+	.string "dispute from earlier Battle-Style?\p"
+	.string "Let's go, show me what you got.$"
 
-Route103_Text_BrendanDefeated:
-	.string "Huh, {PLAYER}, you're not too shabby.$"
+Route103_Text_RivalDefeated:
+	.string "Well! ...I have to forgive you now.\n"
+	.string "{PLAYER}{KUN}, you're pretty good!$"
 
 Route103_Text_BrendanTimeToHeadBack:
-	.string "BRENDAN: I think I get it.\n"
-	.string "I think I know why my dad has his eye\l"
-	.string "out for you now.\p"
-	.string "Look, your POKéMON already likes you,\n"
-	.string "even though you just got it.\p"
-	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could befriend any POKéMON with ease.\p"
-	.string "We should head back to the LAB.$"
+	.string "BRENDAN: I think I know why my dad has\n"
+	.string "an eye out for you now.\p"
+	.string "I mean, you just got that POKéMON,\n"
+	.string "but you seem so comfortable together.\p"
+	.string "You might be able to befriend any\n"
+	.string "kind of POKéMON easily.\p"
+	.string "I am sure Dad would love to test his\n"
+	.string "Battle Synergies Theorem on you.\p"
+	.string "Let's head back to the LAB.$"
 
-Route103_Text_ShouldHaveBroughtPotion:
-	.string "My POKéMON is staggeringly tired…\n"
-	.string "I should have brought a POTION…$"
+Route103_Text_ShouldHaveBroughtUmbrella:
+	.string "Should have brought my Umbrella, this\n"
+	.string "rain seems to last forever...$"
 
 Route103_Text_ShortcutToOldale:
 	.string "If you cross the sea from here,\n"
@@ -353,8 +351,9 @@ Route103_Text_ShortcutToOldale:
 	.string "Fufufu, that's useful, isn't it?$"
 
 Route103_Text_RouteSign:
-	.string "ROUTE 103\n"
-	.string "{DOWN_ARROW} OLDALE TOWN$"
+	.string "ROUTE 103\p"
+	.string "Encounter Levels:  8 - 13\n"
+	.string "Reccomended Level: 11$"
 
 Route103_SetupDadRival::
 	goto_if_unset FLAG_ROUTE103_DAD_RIVAL_W, Route103_SetupDadRival_1
@@ -365,7 +364,6 @@ Route103_SetupDadRival_1:
 	clearflag FLAG_ROUTE103_DAD_RIVAL
 	return
 
-
 Route103_EventScript_DadRivalIntro::
 	lockall
 	faceplayer
@@ -373,7 +371,6 @@ Route103_EventScript_DadRivalIntro::
 	waitmovement 0
 	goto Route103_EventScript_DadRivalBattle
 	end
-
 
 Route103_EventScript_DadRivalBattle::
 	switch VAR_STARTER_MON
@@ -394,13 +391,11 @@ Route103_EventScript_DadRivalBattle_4:
 	goto Route103_EventScript_DadRivalBattleMudkip
 	return
 
-
 Route103_EventScript_DadRivalBattleTreecko::
 	msgbox Route103_Text_dadIntro
 	trainerbattle_no_intro TRAINER_DAD_ROUTE103_TREECKO, Route103_Text_dadDefeated
 	goto Route103_EventScript_DadRivalDefeated
 	end
-
 
 Route103_EventScript_DadRivalBattleTorchic::
 	msgbox Route103_Text_dadIntro
@@ -408,19 +403,16 @@ Route103_EventScript_DadRivalBattleTorchic::
 	goto Route103_EventScript_DadRivalDefeated
 	end
 
-
 Route103_EventScript_DadRivalBattleMudkip::
 	msgbox Route103_Text_dadIntro
 	trainerbattle_no_intro TRAINER_DAD_ROUTE103_MUDKIP, Route103_Text_dadDefeated
 	goto Route103_EventScript_DadRivalDefeated
 	end
 
-
 Route103_EventScript_DadRivalDefeated::
 	msgbox Route103_Text_dadExit
 	goto Route103_EventScript_DadRivalExit
 	return
-
 
 Route103_EventScript_DadRivalExit::
 	lockall
@@ -431,7 +423,6 @@ Route103_EventScript_DadRivalExit::
 	removeobject LOCALID_DAD
 	releaseall
 	end
-
 
 Route103_Move_dadIntro:
 	face_right
