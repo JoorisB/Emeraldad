@@ -140,6 +140,8 @@ LittlerootTown_EventScript_GoInsideWithMom::
 	playse SE_APPLAUSE
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_PlayerStepOffTruck
 	waitmovement 0
+	setflag FLAG_RECEIVED_RUNNING_SHOES
+	setflag FLAG_SYS_B_DASH
 	opendoor VAR_0x8004, VAR_0x8005
 	waitdooranim
 	addobject LOCALID_MOM
@@ -248,7 +250,7 @@ LittlerootTown_EventScript_SetRivalBirchPosForDexUpgradeFemale::
 	end
 
 LittlerootTown_EventScript_FatMan::
-	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
+	msgbox LittlerootTown_Text_TooMuchCandy, MSGBOX_NPC
 	end
 
 LittlerootTown_EventScript_Boy::
@@ -267,7 +269,7 @@ LittlerootTown_EventScript_Twin::
 
 LittlerootTown_EventScript_GoSaveBirch::
 	special GetPlayerBigGuyGirlString
-	msgbox LittlerootTown_Text_CanYouGoSeeWhatsHappening, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_FourthWallBreak, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_TWIN, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -385,7 +387,7 @@ LittlerootTown_EventScript_GoSaveBirchTrigger::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	special GetPlayerBigGuyGirlString
-	msgbox LittlerootTown_Text_CanYouGoSeeWhatsHappening, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_FourthWallBreak, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_TWIN, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -893,18 +895,12 @@ LittlerootTown_EventScript_Mom::
 
 LittlerootTown_EventScript_SetReceivedRunningShoes::
 	removeobject LOCALID_MOM
-	setflag FLAG_SYS_B_DASH
 	setvar VAR_LITTLEROOT_TOWN_STATE, 4
 	release
 	end
 
 LittlerootTown_EventScript_GiveRunningShoes::
-	msgbox LittlerootTown_Text_WearTheseRunningShoes, MSGBOX_DEFAULT
-	playfanfare MUS_OBTAIN_ITEM
-	message LittlerootTown_Text_SwitchShoesWithRunningShoes
-	waitfanfare
-	setflag FLAG_RECEIVED_RUNNING_SHOES
-	msgbox LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_DidYouGetTheLotteryPrice, MSGBOX_DEFAULT
 	msgbox LittlerootTown_Text_ComeHomeIfAnythingHappens, MSGBOX_DEFAULT
 	closemessage
 	delay 30
@@ -913,43 +909,33 @@ LittlerootTown_EventScript_GiveRunningShoes::
 LittlerootTown_Text_WaitPlayer:
 	.string "MOM: Wait, {PLAYER}!$"
 
-LittlerootTown_Text_WearTheseRunningShoes:
+LittlerootTown_Text_DidYouGetTheLotteryPrice::
 	.string "MOM: {PLAYER}! {PLAYER}! Did you\n"
-	.string "introduce yourself to PROF. BIRCH?\p"
-	.string "Oh! What an adorable POKéMON!\n"
-	.string "You got it from PROF. BIRCH. How nice!\p"
-	.string "You're your father's child, all right.\n"
-	.string "You look good together with POKéMON!\p"
-	.string "Here, honey! If you're going out on an\n"
-	.string "adventure, wear these RUNNING SHOES.\p"
-	.string "They'll put a zip in your step!$"
+	.string "get the price POKéMON from PROF.\p"
+	.string "BIRCH?\p"
+	.string "Great! I fear your DAD will also get wind\n"
+	.string "of you receiving a POKéMON. Be careful\p"
+	.string "if he approaches you...\p"
+	.string "Careful not to get squished by his\n"
+	.string "enormous ego that is.$"
 
-LittlerootTown_Text_SwitchShoesWithRunningShoes:
-	.string "{PLAYER} switched shoes with the\n"
-	.string "RUNNING SHOES.$"
-
-LittlerootTown_Text_ExplainRunningShoes:
-	.string "MOM: {PLAYER}, those shoes came with\n"
-	.string "instructions.\p"
-	.string "“Press the B Button while wearing these\n"
-	.string "RUNNING SHOES to run extra-fast!\p"
-	.string "“Slip on these RUNNING SHOES and race\n"
-	.string "in the great outdoors!”$"
-
-LittlerootTown_Text_ComeHomeIfAnythingHappens:
+LittlerootTown_Text_ComeHomeIfAnythingHappens::
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
 	.string "To think that you have your very own\n"
-	.string "POKéMON now…\l"
-	.string "Your father will be overjoyed.\p"
-	.string "…But please be careful.\n"
+	.string "POKéMON now…\p"
+	.string "This is what you always dreamed about.\n"
+	.string "Make it count, but remember to have fun\p"
+	.string "on your journey.\p"
 	.string "If anything happens, you can come home.\p"
 	.string "Go on, go get them, honey!$"
 
-LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can store items\n"
-	.string "and POKéMON.\p"
-	.string "The power of science is staggering!$"
+LittlerootTown_Text_TooMuchCandy:
+	.string "Oh my god. I ate too many RARE CANDIES\n"
+	.string "all at once, I feel bloated...\p"
+	.string "Where did I get RARE CANDIES? There is\n"
+	.string "a man selling them in the second floor\p"
+	.string "of the Oldale Town POKéMON CENTER.$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
 	.string "PROF. BIRCH spends days in his LAB\n"
@@ -959,26 +945,37 @@ LittlerootTown_Text_BirchSpendsDaysInLab:
 	.string "at home?$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
-	.string "Um, um, um!\p"
-	.string "If you go outside and go in the grass,\n"
-	.string "wild POKéMON will jump out!$"
+	.string "Wait a second! You don't own any\n"
+	.string "POKéMON. I can smell it.$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
-	.string "It's dangerous if you don't have\n"
-	.string "your own POKéMON.$"
+	.string "You should pick up a POKéMON before\n"
+	.string "going out into the wild, didn't your\p"
+	.string "parents teach you anything of value?$"
 
-LittlerootTown_Text_CanYouGoSeeWhatsHappening:
-	.string "Um, hi!\p"
-	.string "There are scary POKéMON outside!\n"
-	.string "I can hear their cries!\p"
-	.string "I want to go see what's going on,\n"
-	.string "but I don't have any POKéMON…\p"
-	.string "Can you go see what's happening\n"
-	.string "for me?$"
+LittlerootTown_Text_FourthWallBreak:
+	.string "FOURTH WALL BREAK\p"
+	.string "Hello, this is the creator of the\n"
+	.string "ROM-Hack speaking to you directly, you\p"
+	.string "are about to pick up your Starter,\n"
+	.string "if you are playing this as a Nuzlocke \p"
+	.string "I intended this Encounter to be a\n"
+	.string "“free” one, so you are good to pick up\p"
+	.string "an additional Littleroot Town AND\n"
+	.string "Route 101 encounter after receiving\p"
+	.string "your Starter. Also check out the SIGNS\n"
+	.string "at the start of every Route. It will\p"
+	.string "tell you what Level you should have\n"
+	.string "your POKéMON at when you enter. If you\p"
+	.string "need to level up some POKéMON, there\n"
+	.string "is an NPC in Littleroot Town who knows\p"
+	.string "how you could go about achieving that.\p"
+	.string "Have Fun.$"
 
 LittlerootTown_Text_YouSavedBirch:
-	.string "You saved PROF. BIRCH!\n"
-	.string "I'm so glad!$"
+	.string "Wow, I feel like someone from the\n"
+	.string "beyond overtook my body there for a\p"
+	.string "couple lines of dialouge...$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
 	.string "Are you going to catch POKéMON?\n"
