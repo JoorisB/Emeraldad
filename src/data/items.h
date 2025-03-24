@@ -816,7 +816,7 @@ const struct Item gItemsInfo[] =
     [ITEM_LEMONADE] =
     {
         .name = _("Lemonade"),
-        .price = (I_PRICE >= GEN_7) ? 400 : 350,
+        .price = (I_PRICE >= GEN_7) ? 10 : 10,
         .holdEffectParam = 70,
 #if I_HEALTH_RECOVERY >= GEN_7
         .description = COMPOUND_STRING(

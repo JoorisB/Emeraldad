@@ -27,17 +27,9 @@ OldaleTown_PokemonCenter_1F_EventScript_Boy::
 	end
 
 OldaleTown_PokemonCenter_1F_EventScript_Girl::
-	lock
-	faceplayer
-	goto_if_set FLAG_SYS_POKEDEX_GET, OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable
-	msgbox OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable, MSGBOX_DEFAULT
-	release
+	msgbox OldaleTown_PokemonCenter_1F_Text_OldManUpstairs, MSGBOX_NPC
 	end
 
-OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable::
-	msgbox OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub, MSGBOX_DEFAULT
-	release
-	end
 
 OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
 	.string "That PC in the corner there is\n"
@@ -49,16 +41,10 @@ OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat:
 	.string "POKéMON CENTERS are great!\p"
 	.string "You can use their services as much\n"
 	.string "as you like, and it's all for free.\l"
-	.string "You never have to worry!$"
+	.string "You never have to worry!\p"
+	.string "They even hired a guy selling cheap\n"
+	.string "RARE CANDY upstairs.$"
 
-OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable:
-	.string "The POKéMON WIRELESS CLUB on\n"
-	.string "the second floor was built recently.\p"
-	.string "But they say they're still making\n"
-	.string "adjustments.$"
-
-OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub:
-	.string "The POKéMON WIRELESS CLUB on\n"
-	.string "the second floor was built recently.\p"
-	.string "I traded POKéMON right away.$"
-
+OldaleTown_PokemonCenter_1F_Text_OldManUpstairs:
+	.string "There is a creepy old man upstairs\n"
+	.string "selling shady goods.$"

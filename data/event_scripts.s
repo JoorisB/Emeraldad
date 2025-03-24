@@ -1088,6 +1088,7 @@ Common_EventScript_CandyShop::
 Common_CandyShop:
 	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_LEMONADE
 	.2byte ITEM_NONE
 
 gText_CandyShop_Enter:
