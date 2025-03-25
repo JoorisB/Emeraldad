@@ -4430,6 +4430,56 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/LittlerootTown_TradingCenter/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_TradingCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE102_PRETTY_PETAL_FLOWER_SHOP",
+      "name": "Route102_PrettyPetalFlowerShop_Layout",
+      "width": 15,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PrettyPetalFlowerShop",
+      "border_filepath": "data/layouts/Route102_PrettyPetalFlowerShop/border.bin",
+      "blockdata_filepath": "data/layouts/Route102_PrettyPetalFlowerShop/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE102_POKEMON_CENTER_1F",
+      "name": "Route102_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/Route102_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Route102_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE102_POKEMON_CENTER_2F",
+      "name": "Route102_PokemonCenter_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/Route102_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/Route102_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE102_HIKER_HOME",
+      "name": "Route102_HikerHome_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Route102_HikerHome/border.bin",
+      "blockdata_filepath": "data/layouts/Route102_HikerHome/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE102_ISLAND_HUT",
+      "name": "Route102_IslandHut_Layout",
+      "width": 8,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Route102_IslandHut/border.bin",
+      "blockdata_filepath": "data/layouts/Route102_IslandHut/map.bin"
     }
   ]
 }

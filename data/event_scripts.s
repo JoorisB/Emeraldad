@@ -1177,5 +1177,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/dexnav.inc"
 
 	.include "data/maps/LittlerootPokemonArea/scripts.inc"
-
 	.include "data/maps/LittlerootTown_TradingCenter/scripts.inc"
+	.include "data/maps/Route102_PrettyPetalFlowerShop/scripts.inc"
+	.include "data/maps/Route102_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/Route102_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/Route102_HikerHome/scripts.inc"
+	.include "data/maps/Route102_IslandHut/scripts.inc"
