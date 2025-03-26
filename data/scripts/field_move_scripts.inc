@@ -55,8 +55,7 @@ Text_CantCut:
 EventScript_RockSmash::
 	lockall
 	checkitem ITEM_HAMMER, 1
-	compare VAR_RESULT, 0
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantSmashRock
+	goto_if_eq VAR_RESULT, 0, EventScript_CantSmashRock
 	msgbox Text_PlayerUsedHammer, MSGBOX_DEFAULT
 	dofieldeffect FLDEFF_USE_ROCK_SMASH
 	waitstate
