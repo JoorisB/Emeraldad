@@ -134,6 +134,45 @@ Route123_BerryMastersHouse_Text_JoyNeverGoesOutOfMyLife:
 Route123_BerryMastersHouse_Text_Ah:
 	.string "Ah…$"
 
+Route102_PrettyPetalFlowerShop_Text_BerriesExplanation:
+	.string "BERRIES grow on trees that thrive\n"
+	.string "only in soft, loamy soil.\p"
+	.string "If you take some BERRIES, be sure to\n"
+	.string "plant one in the loamy soil again.\p"
+	.string "A planted BERRY will soon sprout,\n"
+	.string "grow into a plant, flower beautifully,\l"
+	.string "then grow BERRIES again.\p"
+	.string "I want to see the whole wide world\n"
+	.string "filled with beautiful flowers.\l"
+	.string "That's my dream.\p"
+	.string "Please help me, {PLAYER}{KUN}. Plant BERRIES\n"
+	.string "and bring more flowers into the world.$"
+
+Route102_PrettyPetalFlowerShop_Text_BerriesExplanationDeep::
+	.string "There are many different types of\n"
+	.string "berries. My wife sells berries that make\p"
+	.string "your POKéMON resist a move of a certain\n"
+	.string "type. Our daughter is focused more on\p"
+	.string "utility berries, taht heal your POKéMON\n"
+	.string "or cure their status conditions.$"
+
+Route102_PrettyPetalFlowerShop_Text_YouCanHaveThis:
+	.string "Hello!\p"
+	.string "The more attention you give to flowers,\n"
+	.string "the more beautifully they bloom.\p"
+	.string "You'll like tending flowers. I'm sure\n"
+	.string "of it. You can have this.$"
+
+Route102_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
+	.string "While BERRY plants are growing,\n"
+	.string "water them with the WAILMER PAIL.\p"
+	.string "Oh, another thing.\p"
+	.string "If you don't pick BERRIES for a while,\n"
+	.string "they'll drop off onto the ground.\l"
+	.string "But they'll sprout again.\p"
+	.string "Isn't that awesome?\n"
+	.string "It's like they have the will to live.$"
+	
 Route104_PrettyPetalFlowerShop_Text_ThisIsPrettyPetalFlowerShop:
 	.string "Hello!\p"
 	.string "This is the PRETTY PETAL flower shop.\n"

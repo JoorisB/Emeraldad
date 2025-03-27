@@ -11253,16 +11253,19 @@ const struct Item gItemsInfo[] =
         .secondaryId = MOVE_CHARGE_BEAM, 
     },
 
-    [ITEM_TM55] =
+    [ITEM_TM_AQUA_JET] =
     {
         .name = _("TM55"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "Strikes first by\n"
+            "dashing at the foe\n"
+            " at a high speed."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_AQUA_JET, // Todo
     },
 
     [ITEM_TM56] =

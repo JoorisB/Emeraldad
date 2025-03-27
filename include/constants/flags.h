@@ -1223,11 +1223,11 @@
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492
 #define FLAG_ITEM_LITTLEROOT_TOWN_TM_CALM_MIND                      0x493 // New Items
 #define FLAG_ITEM_ROUTE_101_POKE_BALL                               0x494 
+#define FLAG_RECEIVED_AUQA_JET                                      0x495 // Rout102 Azumarril Trainer AuqaJet Gift
+#define FLAG_RECEIVED_LANTERN                                       0x496 // Lantern Item (Flash HM replacement)
+#define FLAG_RECEIVED_STICKS_FOR_HAMMERS                            0x497 // Quest to assemble Hammers (Rock Smash HM replacement)
+#define FLAG_RECEIVED_HAMMER                                        0x498 // Hammer Item (Rock Smash HM replacement)
 
-#define FLAG_UNUSED_0x495                                           0x495 // Unused Flag
-#define FLAG_UNUSED_0x496                                           0x496 // Unused Flag
-#define FLAG_UNUSED_0x497                                           0x497 // Unused Flag
-#define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
 #define FLAG_UNUSED_0x499                                           0x499 // Unused Flag
 #define FLAG_UNUSED_0x49A                                           0x49A // Unused Flag
 #define FLAG_UNUSED_0x49B                                           0x49B // Unused Flag

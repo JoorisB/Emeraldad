@@ -55,7 +55,8 @@
     F(TRAILBLAZE)\
     F(CHILLING_WATER)\
     F(SHADOW_CLAW)\
-    F(CHARGE_BEAM)
+    F(CHARGE_BEAM)\
+    F(AQUA_JET)
 
 #define FOREACH_HM(F) \
     F(CUT) \
