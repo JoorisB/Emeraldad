@@ -10850,6 +10850,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .contestComboStarterId = 0,
         .contestComboMoves = {0},
         .battleAnimScript = gBattleAnimMove_ShadowClaw,
+        .validApprenticeMove = TRUE,
     },
 
     [MOVE_THUNDER_FANG] =
@@ -11617,6 +11618,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .contestComboStarterId = 0,
         .contestComboMoves = {COMBO_STARTER_CHARGE},
         .battleAnimScript = gBattleAnimMove_ChargeBeam,
+        .validApprenticeMove = TRUE,
     },
 
     [MOVE_WOOD_HAMMER] =
@@ -20234,6 +20236,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .chance = 100,
         }),
         .battleAnimScript = gBattleAnimMove_Trailblaze,
+        .validApprenticeMove = TRUE,
     },
 
     [MOVE_CHILLING_WATER] =
@@ -20256,6 +20259,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .chance = 100,
         }),
         .battleAnimScript = gBattleAnimMove_ChillingWater,
+        .validApprenticeMove = TRUE,
     },
 
     [MOVE_HYPER_DRILL] =

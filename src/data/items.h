@@ -816,7 +816,7 @@ const struct Item gItemsInfo[] =
     [ITEM_LEMONADE] =
     {
         .name = _("Lemonade"),
-        .price = (I_PRICE >= GEN_7) ? 10 : 10,
+        .price = (I_PRICE >= GEN_7) ? 1 : 1,
         .holdEffectParam = 70,
 #if I_HEALTH_RECOVERY >= GEN_7
         .description = COMPOUND_STRING(
@@ -1941,7 +1941,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Rare Candy"),
         .pluralName = _("Rare Candies"),
-        .price = (I_PRICE >= GEN_7) ? 10 : 10,
+        .price = (I_PRICE >= GEN_7) ? 1 : 1,
         .description = COMPOUND_STRING(
             "Raises the level\n"
             "of a Pokémon by\n"
@@ -2202,7 +2202,7 @@ const struct Item gItemsInfo[] =
     [ITEM_MAX_REPEL] =
     {
         .name = _("Max Repel"),
-        .price = (I_PRICE >= GEN_7) ? 10 : 10,
+        .price = (I_PRICE >= GEN_7) ? 1 : 1,
         .holdEffectParam = 250,
         .description = COMPOUND_STRING(
             "Repels weak wild\n"
@@ -11193,52 +11193,64 @@ const struct Item gItemsInfo[] =
         .secondaryId = MOVE_OVERHEAT,
     },
 
-    [ITEM_TM51] =
+    [ITEM_TM_TRAILBLAZE] =
     {
         .name = _("TM51"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "The user attacks\n"
+            "suddenly, raising \n"
+            "its Speed."), 
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_TRAILBLAZE,
     },
 
-    [ITEM_TM52] =
+    [ITEM_TM_CHILLING_WATER] =
     {
         .name = _("TM52"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "A shower with ice-cold\n"
+            "water lowers the \n"
+            "target's Attack."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_CHILLING_WATER,
     },
 
-    [ITEM_TM53] =
+    [ITEM_TM_SHADOW_CLAW] =
     {
         .name = _("TM53"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "Strikes with a\n"
+            "shadow claw. High\n"
+            "critical-hit ratio."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_SHADOW_CLAW,
     },
 
-    [ITEM_TM54] =
+    [ITEM_TM_CHARGE_BEAM] =
     {
         .name = _("TM54"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "Fires a beam of\n"
+            "electricity. May\n"
+            "raise Sp. Atk."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_CHARGE_BEAM, 
     },
 
     [ITEM_TM55] =

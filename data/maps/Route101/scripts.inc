@@ -311,5 +311,5 @@ Route101_Text_WildPokemonInTallGrass::
 Route101_Text_RouteSign:
 	.string "ROUTE 101\p"
 	.string "Encounter Levels:  3 - 8\n"
-	.string "Reccomended Level: 7$"
+	.string "Reccomended Level: 8$"
 

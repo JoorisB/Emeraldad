@@ -353,7 +353,7 @@ Route103_Text_ShortcutToOldale:
 Route103_Text_RouteSign:
 	.string "ROUTE 103\p"
 	.string "Encounter Levels:  8 - 13\n"
-	.string "Reccomended Level: 11$"
+	.string "Reccomended Level: 12 - 14(2nd Visit)$"
 
 Route103_SetupDadRival::
 	goto_if_unset FLAG_ROUTE103_DAD_RIVAL_W, Route103_SetupDadRival_1

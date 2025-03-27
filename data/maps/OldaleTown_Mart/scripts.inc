@@ -12,6 +12,26 @@ OldaleTown_Mart_EventScript_Clerk::
 	release
 	end
 
+OldaleTown_Mart_EventScript_BattleItem_Shop::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart OldaleTown_Mart_Pokemart_BattleItem
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+OldaleTown_Mart_EventScript_TM_Shop::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart OldaleTown_Mart_Pokemart_TM
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
 	.align 2
 OldaleTown_Mart_Pokemart_Basic:
 	.2byte ITEM_POKE_BALL
@@ -21,6 +41,23 @@ OldaleTown_Mart_Pokemart_Basic:
 	.2byte ITEM_AWAKENING
 	pokemartlistend
 	
+	.align 2
+OldaleTown_Mart_Pokemart_TM:
+	.2byte ITEM_TM_TRAILBLAZE
+	.2byte ITEM_TM_CHILLING_WATER
+	.2byte ITEM_TM_SHADOW_CLAW
+	.2byte ITEM_TM_CHARGE_BEAM
+	pokemartlistend
+
+	.align 2
+OldaleTown_Mart_Pokemart_BattleItem:
+	.2byte ITEM_MYSTIC_WATER
+	.2byte ITEM_CHARCOAL
+	.2byte ITEM_MIRACLE_SEED
+	.2byte ITEM_SILK_SCARF
+	.2byte ITEM_EXPERT_BELT
+	.2byte ITEM_SHELL_BELL
+	pokemartlistend
 
 OldaleTown_Mart_ExpandedItems::
 	pokemart OldaleTown_Mart_Pokemart_Expanded

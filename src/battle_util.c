@@ -8594,6 +8594,8 @@ u32 GetBattleMoveTarget(u16 move, u8 setTarget)
 
 u8 GetAttackerObedienceForAction()
 {
+    return OBEYS;    // Obedience is annoying, this removes it Joorror_TODO
+
     s32 rnd;
     s32 calc;
     u8 obedienceLevel = 0;

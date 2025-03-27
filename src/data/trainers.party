@@ -4470,11 +4470,51 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
-Poochyena
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lotad @ Big Root  
+Ability: Swift Swim  
+Level: 11  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 32 HP / 68 SpA  
+Modest Nature  
+- Leech Seed  
+- Water Pulse  
+- Absorb  
+- Astonish  
+
+Qwilfish-Hisui @ Expert Belt  
+Ability: Swift Swim  
+Level: 11  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 12 HP / 56 SpA  
+Modest Nature  
+- Toxic Spikes  
+- Minimize  
+- Acid Spray  
+- Mud Shot  
+
+Omanyte @ White Herb  
+Ability: Swift Swim  
+Level: 12  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 64 HP / 24 SpA  
+Modest Nature  
+- Shell Smash  
+- Rest  
+- Snore  
+- Ancient Power  
+
+Chewtle @ Eviolite  
+Ability: Swift Swim  
+Level: 13  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
+EVs: 32 HP / 32 Def / 36 SpD  
+Adamant Nature  
+- Bite  
+- Whirlpool  
+- Ice Fang  
+- Chilling Water
 
 === TRAINER_BILLY ===
 Name: BILLY
@@ -4649,17 +4689,61 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Swellow
-Level: 34
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Ludicolo @ Leftovers  
+Ability: Swift Swim  
+Level: 50  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+- Ice Beam  
+- Giga Drain  
+- Leech Seed  
+- Scald  
 
-Linoone
-Level: 32
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Overqwil @ Assault Vest  
+Ability: Swift Swim  
+Level: 50  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe   
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Crunch  
+- Poison Jab  
+- Waterfall  
+- Double-Edge  
 
-Mightyena
-Level: 36
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Omastar @ Rocky Helmet  
+Ability: Swift Swim  
+Level: 50  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe   
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+- Ancient Power  
+- Earth Power  
+- Iron Defense  
+- Hydro Pump  
+
+Drednaw @ White Herb  
+Ability: Swift Swim  
+Level: 50  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Shell Smash  
+- Earthquake  
+- Rock Slide  
+- Liquidation  
+
+Gholdengo @ Choice Specs  
+Ability: Good as Gold  
+Level: 50  
+Tera Type: Steel  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature   
+- Make It Rain  
+- Shadow Ball  
+- Thunder  
+- Dazzling Gleam  
 
 === TRAINER_EDDIE ===
 Name: EDDIE
@@ -4685,15 +4769,40 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wattrel @ Magnet  
+Ability: Wind Power  
+Level: 12  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe   
+EVs: 24 HP / 72 SpA  
+Modest Nature  
+- Tailwind  
+- Charge Beam  
+- Roost  
+- Thunder Wave  
 
-Taillow
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Archen @ Sitrus Berry  
+Ability: Defeatist  
+Level: 13  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe   
+EVs: 24 HP / 60 Atk  
+Adamant Nature  
+- Roost  
+- Acrobatics  
+- Ancient Power  
+- Rock Throw  
+
+Krabby @ Oran Berry  
+Ability: Sheer Force  
+Level: 14  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
+EVs: 8 HP / 36 Atk  
+Adamant Nature  
+- Metal Claw  
+- Rock Smash  
+- Water Pulse  
+- Swords Dance  
 
 === TRAINER_TIMMY ===
 Name: TIMMY
@@ -7058,10 +7167,10 @@ AI: Check Bad Move / Try To Faint
 
 Goomy @ Miracle Seed  
 Ability: Hydration  
-Level: 8  
+Level: 8
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe   
 EVs: 16 HP / 36 SpA  
 Modest Nature  
-IVs: 0 Atk  
 - Absorb  
 - Water Gun  
 - Dragon Breath  
@@ -7069,7 +7178,8 @@ IVs: 0 Atk
 
 Treecko @ Oran Berry  
 Ability: Unburden  
-Level: 10  
+Level: 10
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe   
 EVs: 36 HP / 76 SpA  
 Modest Nature  
 - Mega Drain  
@@ -7131,6 +7241,7 @@ AI: Check Bad Move / Try To Faint
 Frigibax @ Never-Melt Ice  
 Ability: Thermal Exchange  
 Level: 8    
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 8 HP / 76 Atk  
 Adamant Nature  
 - Icicle Spear  
@@ -7141,6 +7252,7 @@ Adamant Nature
 Torchic @ Oran Berry  
 Ability: Speed Boost  
 Level: 10  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 36 HP / 76 Atk  
 Adamant Nature  
 - Flame Charge  
@@ -7202,6 +7314,7 @@ AI: Check Bad Move / Try To Faint
 Larvitar @ Hard Stone  
 Ability: Guts  
 Level: 8  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 28 HP / 64 Atk  
 Adamant Nature  
 - Rock Throw  
@@ -7212,6 +7325,7 @@ Adamant Nature
 Mudkip @ Oran Berry  
 Ability: Damp  
 Level: 10  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 36 HP / 76 Atk  
 Adamant Nature  
 - Water Gun  
@@ -7273,9 +7387,9 @@ AI: Check Bad Move / Try To Faint
 Goomy @ Miracle Seed  
 Ability: Hydration  
 Level: 8  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 16 HP / 36 SpA  
 Modest Nature  
-IVs: 0 Atk  
 - Absorb  
 - Water Gun  
 - Dragon Breath  
@@ -7284,6 +7398,7 @@ IVs: 0 Atk
 Treecko @ Oran Berry  
 Ability: Unburden  
 Level: 10  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 36 HP / 76 SpA  
 Modest Nature  
 - Mega Drain  
@@ -7345,6 +7460,7 @@ AI: Check Bad Move / Try To Faint
 Frigibax @ Never-Melt Ice  
 Ability: Thermal Exchange  
 Level: 8    
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 8 HP / 76 Atk  
 Adamant Nature  
 - Icicle Spear  
@@ -7355,6 +7471,7 @@ Adamant Nature
 Torchic @ Oran Berry  
 Ability: Speed Boost  
 Level: 10  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 36 HP / 76 Atk  
 Adamant Nature  
 - Flame Charge  
@@ -7416,6 +7533,7 @@ AI: Check Bad Move / Try To Faint
 Larvitar @ Hard Stone  
 Ability: Guts  
 Level: 8  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 28 HP / 64 Atk  
 Adamant Nature  
 - Rock Throw  
@@ -7426,6 +7544,7 @@ Adamant Nature
 Mudkip @ Oran Berry  
 Ability: Damp  
 Level: 10  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 36 HP / 76 Atk  
 Adamant Nature  
 - Water Gun  
@@ -8396,20 +8515,45 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_TIANA ===
 Name: TIANA
-Class: Lass
-Pic: Lass
+Class: Hex Maniac
+Pic: Hex Maniac
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Inkay @ Eviolite  
+Ability: Infiltrator  
+Level: 14  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
+EVs: 52 HP / 4 Spe  
+Timid Nature  
+- Calm Mind  
+- Baton Pass  
+- Stored Power  
+- Nasty Plot  
 
-Shroomish
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gastly @ Spell Tag  
+Ability: Levitate  
+Level: 15  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
+EVs: 36 SpA / 12 Spe  
+Modest Nature  
+- Ominous Wind  
+- Acid Spray  
+- Mega Drain  
+- Will-O-Wisp  
+
+Abra @ Twisted Spoon  
+Ability: Synchronize  
+Level: 15  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
+EVs: 52 SpA / 12 Spe  
+Modest Nature  
+- Confusion  
+- Charge Beam  
+- Teleport  
+- Thunder Wave  
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
@@ -8554,15 +8698,51 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
-Wurmple
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Joltik @ Oran Berry  
+Ability: Compound Eyes  
+Level: 13  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 32 HP / 8 SpA / 36 Spe  
+Timid Nature  
+- Thunder Wave  
+- Light Screen  
+- Toxic  
+- Volt Switch  
 
-Wurmple
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Larvesta @ Silver Powder  
+Ability: Flame Body  
+Level: 13  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
+EVs: 24 HP / 60 Atk  
+Adamant Nature  
+- Pounce  
+- U-turn  
+- Calm Mind  
+- Signal Beam  
+
+Venonat @ Sitrus Berry  
+Ability: Compound Eyes  
+Level: 14  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 28 HP / 32 Spe  
+Timid Nature  
+- Agility  
+- Sleep Powder  
+- Baton Pass  
+- Curse  
+
+Anorith @ Hard Stone  
+Ability: Swift Swim  
+Level: 15  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 24 HP / 52 Atk  
+Adamant Nature  
+- Aqua Jet  
+- Rock Blast  
+- Fury Cutter  
+- Hone Claws  
 
 === TRAINER_LYLE ===
 Name: LYLE
@@ -11949,7 +12129,7 @@ AI: Check Bad Move / Try To Faint
 Slakoth @ Oran Berry  
 Ability: Truant  
 Level: 10  
-Tera Type: Normal  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe   
 EVs: 76 HP / 36 Atk  
 Adamant Nature  
 - Scratch  
@@ -11962,6 +12142,7 @@ Ability: Blaze
 Level: 12  
 Shiny: Yes  
 Tera Type: Fire  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 32 HP / 64 SpA  
 Modest Nature  
 - Scratch  
@@ -11980,7 +12161,7 @@ AI: Check Bad Move / Try To Faint
 Slakoth @ Oran Berry  
 Ability: Truant  
 Level: 10  
-Tera Type: Normal  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe   
 EVs: 76 HP / 36 Atk  
 Adamant Nature  
 - Scratch  
@@ -11993,6 +12174,7 @@ Ability: Overgrow
 Level: 12  
 Shiny: Yes  
 Tera Type: Grass  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 16 HP / 56 SpA  
 Modest Nature  
 - Tackle  
@@ -12011,7 +12193,7 @@ AI: Check Bad Move / Try To Faint
 Slakoth @ Oran Berry  
 Ability: Truant  
 Level: 10  
-Tera Type: Normal  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 76 HP / 36 Atk  
 Adamant Nature  
 - Scratch  
@@ -12024,6 +12206,7 @@ Ability: Torrent
 Level: 12  
 Shiny: Yes  
 Tera Type: Water  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
 EVs: 24 HP / 60 Atk  
 Adamant Nature  
 - Tackle  

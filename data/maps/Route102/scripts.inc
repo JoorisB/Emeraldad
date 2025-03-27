@@ -2,7 +2,7 @@ Route102_MapScripts::
 	.byte 0
 
 Route102_EventScript_LittleBoy::
-	msgbox Route102_Text_ImNotVeryTall, MSGBOX_NPC
+	msgbox Route102_Text_INeedToPee, MSGBOX_NPC
 	end
 
 Route102_EventScript_RouteSignOldale::
@@ -14,7 +14,7 @@ Route102_EventScript_RouteSignPetalburg::
 	end
 
 Route102_EventScript_Boy::
-	msgbox Route102_Text_CatchWholeBunchOfPokemon, MSGBOX_NPC
+	msgbox Route102_Text_AfraidOfTheDark, MSGBOX_NPC
 	end
 
 Route102_EventScript_Calvin::
@@ -89,20 +89,18 @@ Route102_Text_LetsGoBack:
 	.string "{PLAYER}, thank you!\n"
 	.string "Let's go back to the GYM!$"
 
-Route102_Text_ImNotVeryTall:
-	.string "I'm…not very tall, so I sink right\n"
-	.string "into tall grass.\p"
-	.string "The grass goes up my nose and…\n"
-	.string "Fwafwafwafwafwa…\p"
-	.string "Fwatchoo!$"
+Route102_Text_INeedToPee:
+	.string "I really need to pee, do yopu know of\n"
+	.string "any bathrooms around here?$"
 
-Route102_Text_CatchWholeBunchOfPokemon:
-	.string "I'm going to catch a whole bunch of\n"
-	.string "POKéMON!$"
+Route102_Text_AfraidOfTheDark:
+	.string "If I wasn't afraid of the dark, I would\n"
+	.string "love to explore the cave.$"
 
 Route102_Text_RouteSignOldale:
-	.string "ROUTE 102\n"
-	.string "{RIGHT_ARROW} OLDALE TOWN$"
+	.string "ROUTE 102\p"
+	.string "Encounter Levels:  8 - 15\n"
+	.string "Reccomended Level: 16$"
 
 Route102_Text_RouteSignPetalburg:
 	.string "ROUTE 102\n"
