@@ -4480,6 +4480,76 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Route102_IslandHut/border.bin",
       "blockdata_filepath": "data/layouts/Route102_IslandHut/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_DUMBELL_F1",
+      "name": "MtDumbell_F1_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtDumbell_F1/border.bin",
+      "blockdata_filepath": "data/layouts/MtDumbell_F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_DUMBELL_F2",
+      "name": "MtDumbell_F2_Layout",
+      "width": 36,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtDumbell_F2/border.bin",
+      "blockdata_filepath": "data/layouts/MtDumbell_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_DUMBELL_F3",
+      "name": "MtDumbell_F3_Layout",
+      "width": 50,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtDumbell_F3/border.bin",
+      "blockdata_filepath": "data/layouts/MtDumbell_F3/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_DUMBELL_F4",
+      "name": "MtDumbell_F4_Layout",
+      "width": 50,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtDumbell_F4/border.bin",
+      "blockdata_filepath": "data/layouts/MtDumbell_F4/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_DUMBELL_F5",
+      "name": "MtDumbell_F5_Layout",
+      "width": 30,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtDumbell_F5/border.bin",
+      "blockdata_filepath": "data/layouts/MtDumbell_F5/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_DUMBELL_FIRE",
+      "name": "MtDumbell_Fire_Layout",
+      "width": 22,
+      "height": 22,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtDumbell_Fire/border.bin",
+      "blockdata_filepath": "data/layouts/MtDumbell_Fire/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_DUMBELL_ICE",
+      "name": "MtDumbell_Ice_Layout",
+      "width": 22,
+      "height": 22,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtDumbell_Ice/border.bin",
+      "blockdata_filepath": "data/layouts/MtDumbell_Ice/map.bin"
     }
   ]
 }

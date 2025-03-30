@@ -168,8 +168,8 @@
       "x": 5,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE102",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_MT_DUMBELL_F5",
+      "dest_warp_id": "2"
     },
     {
       "x": 64,
@@ -198,6 +198,13 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE102_ISLAND_HUT",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_MT_DUMBELL_F4",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

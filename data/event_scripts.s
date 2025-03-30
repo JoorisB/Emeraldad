@@ -1183,3 +1183,17 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route102_PokemonCenter_2F/scripts.inc"
 	.include "data/maps/Route102_HikerHome/scripts.inc"
 	.include "data/maps/Route102_IslandHut/scripts.inc"
+
+	.include "data/maps/MtDumbell_F1/scripts.inc"
+
+	.include "data/maps/MtDumbell_F2/scripts.inc"
+
+	.include "data/maps/MtDumbell_F3/scripts.inc"
+
+	.include "data/maps/MtDumbell_F4/scripts.inc"
+
+	.include "data/maps/MtDumbell_F5/scripts.inc"
+
+	.include "data/maps/MtDumbell_Fire/scripts.inc"
+
+	.include "data/maps/MtDumbell_Ice/scripts.inc"

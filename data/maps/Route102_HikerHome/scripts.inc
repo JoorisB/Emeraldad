@@ -21,7 +21,7 @@ Route102_HikerHome_EventScript_HikerBuddy::
 	faceplayer
 	goto_if_set FLAG_RECEIVED_HAMMER, Route102_HikerHome_EventScript_HikerThanksForHelp
 	goto_if_set FLAG_RECEIVED_STICKS_FOR_HAMMERS, Route102_HikerHome_EventScript_SticksRustboro
-	msgbox gText_WouldYouLikeToRestYourPkmn, MSGBOX_YESNO
+	msgbox Route102_HikerHome_Text_CanYouHelpMeOut, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, Route102_HikerHome_EventScript_BringSticksToBuddy
 	goto_if_eq VAR_RESULT, NO, Route102_HikerHome_EventScript_FindSomeoneElse
 	end

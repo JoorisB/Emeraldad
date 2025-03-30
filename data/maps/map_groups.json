@@ -439,7 +439,14 @@
     "TerraCave_Entrance",
     "TerraCave_End",
     "AlteringCave",
-    "MeteorFalls_StevensCave"
+    "MeteorFalls_StevensCave",
+    "MtDumbell_F1",
+    "MtDumbell_F2",
+    "MtDumbell_F3",
+    "MtDumbell_F4",
+    "MtDumbell_F5",
+    "MtDumbell_Fire",
+    "MtDumbell_Ice"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
